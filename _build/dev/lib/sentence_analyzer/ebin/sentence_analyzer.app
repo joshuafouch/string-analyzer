@@ -1,0 +1,9 @@
+{application,sentence_analyzer,
+             [{config_mtime,1743884373},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"sentence_analyzer"},
+              {modules,['Elixir.SentenceAnalyzer']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.SentenceAnalyzer',[]}}]}.
