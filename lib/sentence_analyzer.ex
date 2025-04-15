@@ -14,7 +14,7 @@ We hold these truths to be self-evident, that all men are created equal, that th
 
   end
 
-  # for reading it and outputting results of functions
+  # for reading it the input and outputting results of functions
   def analyze(input) do
 
     # word count
@@ -92,7 +92,7 @@ We hold these truths to be self-evident, that all men are created equal, that th
     # call recursive function
     word_list(words)
     |> freqy(%{})
-    |> filter_unique()
+    |> filter_repeated()
     |> Enum.into(%{})
 
   end
@@ -119,7 +119,7 @@ We hold these truths to be self-evident, that all men are created equal, that th
 
 
   # filters out words that aren't repeated
-  def filter_unique(map) do
+  def filter_repeated(map) do
 
     map
     |> Enum.filter(fn {_, acc} -> acc > 1 end)  # HOF filter!

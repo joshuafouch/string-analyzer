@@ -1,5 +1,5 @@
 {application,sentence_analyzer,
-             [{config_mtime,1743884373},
+             [{config_mtime,1744644843},
               {optional_applications,[]},
               {applications,[kernel,stdlib,elixir,logger]},
               {description,"sentence_analyzer"},
